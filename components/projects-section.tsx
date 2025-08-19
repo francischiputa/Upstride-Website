@@ -7,7 +7,7 @@ import { Brain, Sun, ArrowRight, CheckCircle } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "AI Deployments",
+    title: "AI Projects",
     icon: Brain,
     description:
       "We specialize in AI deployment projects, starting with a thorough analysis of your business requirements. Our process includes assessing operational needs, identifying opportunities for AI integration (e.g., automation, predictive analytics, customer service bots), custom solution design, implementation, testing, and ongoing support. Our scalable and secure solutions ensure minimal disruption and maximum ROI.",
