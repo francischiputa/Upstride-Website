@@ -201,7 +201,7 @@ export function ContactSection() {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="(+260) 9123-4567"
                     />
                   </div>
                   <div>
