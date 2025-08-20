@@ -10,7 +10,7 @@ const products = [
     title: "Office Furniture",
     description:
       "Our selection of office furniture combines functionality with style, ensuring a productive and comfortable work environment. From ergonomic chairs to spacious desks and storage solutions, we cater to all office needs.",
-    image: "/office_funicture.webp",
+    image: "/Office Furniture Image v1.jpg",
     buttonText: "View Furniture Collection",
   },
   {
@@ -18,7 +18,7 @@ const products = [
     title: "Office Stationery",
     description:
       "We offer a wide array of office stationery products, including pens, papers, files, and other essential supplies to keep your office running smoothly and efficiently.",
-    image: "/office-stationary-1.png",
+    image: "/office stationery upsrtide.jpg",
     buttonText: "Explore Stationery",
   },
   {
@@ -26,7 +26,7 @@ const products = [
     title: "Computers",
     description:
       "100% Cool, we supply a variety of computers to meet the needs of different users, from powerful desktops for professional use to compact PCs for everyday tasks.",
-    image: "/computers.avif",
+    image: "/Computer Banner.jpg",
     buttonText: "Discover Computers",
   },
   {
@@ -34,7 +34,7 @@ const products = [
     title: "Air Conditioners",
     description:
       "Upstride Tradez provides high-performance air conditioning units from various brands, designed for both residential and commercial spaces, ensuring optimal climate control and energy efficiency.",
-    image: "/air_conditioners.png",
+    image: "/AIR CON Banner.jpg",
     buttonText: "Shop Air Conditioners",
   },
   {
@@ -42,7 +42,7 @@ const products = [
     title: "Home Interior Items",
     description:
       "Our global collection of household interior items includes stylish carpets and practical pieces to enhance the look and feel of any home, creating a cozy and inviting space.",
-    image: "/Home.webp",
+    image: "/Home Interior Items.jpg",
     buttonText: "Browse Home Interiors",
   },
   {
@@ -50,7 +50,7 @@ const products = [
     title: "Laptops",
     description:
       "Our range of laptops includes models suitable for business, gaming, and personal use, all featuring the latest technology to ensure high performance and reliability.",
-    image: "/laptop.png",
+    image: "/Laptops.jpg",
     buttonText: "View Laptops",
   },
   {
@@ -58,7 +58,7 @@ const products = [
     title: "Solar Panels",
     description:
       "We supply high-efficiency solar panels to help you harness renewable energy, reduce electricity costs, and promote environmental sustainability.",
-    image: "/solar-pannel.webp",
+    image: "/Solar Banner 1.jpg",
     buttonText: "Explore Solar Solutions",
   },
   {
@@ -66,7 +66,7 @@ const products = [
     title: "Electronics",
     description:
       "Upstride Tradez provides a variety of electronic products, from entertainment systems to essential household electronics, all from trusted brands known for quality and innovation.",
-    image: "/electronics.png",
+    image: "/Electroincs.jpg",
     buttonText: "Shop Electronics",
   },
 ]

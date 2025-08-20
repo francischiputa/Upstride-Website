@@ -12,7 +12,7 @@ const heroSlides = [
     description:
       "Discover our premium range of office furniture, electronics, solar panels, and innovative AI and solar projects tailored to your needs.",
     cta: "Explore Our Products & Projects",
-    background: "/modern-office-solar.png",
+    background: "/home-banner-1.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const heroSlides = [
     description:
       "From AI deployments to automation solutions, we help businesses leverage artificial intelligence for maximum efficiency and growth.",
     cta: "Discover AI Projects",
-    background: "/ai-office.png",
+    background: "/home-banner-3.jpg",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const heroSlides = [
     description:
       "Our comprehensive solar projects reduce energy costs and environmental impact while providing reliable, sustainable power solutions.",
     cta: "View Solar Projects",
-    background: "/commercial-solar-installation.png",
+    background: "/home-banner-2.jpg",
   },
 ]
 

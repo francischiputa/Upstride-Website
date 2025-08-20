@@ -107,11 +107,11 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-slate-300">info@upstridetradez.com</span>
+                <span className="text-slate-300"> info@upstridez.com</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Globe className="w-5 h-5 text-blue-400" />
-                <span className="text-slate-300">www.upstridetradez.com</span>
+                <span className="text-slate-300">www.upstridez.com</span>
               </li>
               <li className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400" />

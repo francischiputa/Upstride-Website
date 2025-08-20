@@ -135,6 +135,12 @@ export function ProjectsSection() {
 
                   <Button
                     className="w-full group-hover:bg-slate-600 group-hover:text-white transition-all duration-300 flex items-center justify-center gap-2 bg-transparent"
+                    onClick={() => {
+                    const element = document.getElementById("contact-form")
+                      if (element) {
+                        element.scrollIntoView({ behavior: "smooth" })
+                      }
+                    }}
                     variant="outline"
                   >
                     {project.buttonText}
@@ -211,7 +217,7 @@ export function ProjectsSection() {
             <Button
               size="lg"
               onClick={() => scrollToSection("contact")}
-              className="bg-white text-slate-600 hover:bg-slate-100 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+              className="bg-white text-black hover:bg-slate-100 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
             >
               Start Your Project
             </Button>
@@ -219,7 +225,7 @@ export function ProjectsSection() {
               size="lg"
               onClick={() => scrollToSection("products")}
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-slate-600 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+              className="border-white text-black hover:bg-white hover:text-slate-600 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
             >
               View Our Products
             </Button>

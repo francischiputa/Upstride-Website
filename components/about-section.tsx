@@ -45,7 +45,7 @@ export function AboutSection() {
       <div className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url(/professional-team.png)" }}
+          style={{ backgroundImage: "url(/about-us.jpeg)" }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/70 via-slate-900/50 to-slate-900/30"></div>
         </div>
@@ -142,7 +142,7 @@ export function AboutSection() {
             <Button
               size="lg"
               onClick={() => scrollToSection("products")}
-              className="bg-white text-slate-600 hover:bg-slate-100 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+              className="bg-white text-black hover:bg-slate-100 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
             >
               Explore Our Products
             </Button>
@@ -150,7 +150,7 @@ export function AboutSection() {
               size="lg"
               onClick={() => scrollToSection("contact")}
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-slate-600 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+              className="border-white text-black hover:bg-white hover:text-slate-600 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
             >
               Get In Touch
             </Button>
