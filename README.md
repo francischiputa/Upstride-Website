@@ -111,5 +111,5 @@ This project is private and proprietary to Upstride Tradez Limited.
 ## Support
 
 For support or questions about this website, please contact:
-- Email: info@upstridetradez.com
-- Phone: +123-456-7890
+- Email: fchiputa@gmail.com
+- Phone: +260974730856
