@@ -12,8 +12,8 @@ export default function HomePage() {
       <Navigation />
       <HeroCarousel />
       <AboutSection />
-      <ProductsSection />
       <ProjectsSection />
+      <ProductsSection />
       <ContactSection />
       <Footer />
     </main>

@@ -92,26 +92,48 @@ export function HeroCarousel() {
           </div>
 
           {/* Content */}
-          <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6 lg:px-8">
+          {/* <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-serif mb-6 animate-fade-in-up">
+              <h1 className="text-l sm:text-md lg:text-6xl font-bold font-serif mb-6 animate-fade-in-up">
                 {slide.title}
               </h1>
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-medium mb-8 text-blue-200 animate-fade-in-up animate-delay-200">
+              <h2 className="text-l sm:text-2xl lg:text-3xl font-medium mb-8 text-blue-200 animate-fade-in-up animate-delay-200">
                 {slide.subtitle}
               </h2>
-              <p className="text-lg sm:text-xl mb-10 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animate-delay-400">
+              <p className="text-md sm:text-xl mb-10 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animate-delay-400">
                 {slide.description}
               </p>
               <Button
                 size="lg"
-                onClick={() => scrollToSection("products")}
+                onClick={() => scrollToSection("projects")}
+                className="bg-white hover:bg-slate-700 hover:text-white text-black px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 animate-fade-in-up animate-delay-600"
+              >
+                {slide.cta}
+              </Button>
+            </div>
+          </div> */}
+
+          <div className="relative z-10 flex items-center justify-start h-full px-4 sm:px-6 lg:px-12">
+            <div className="max-w-4xl text-left text-white">
+              <h1 className="text-l sm:text-md lg:text-6xl font-bold font-serif mb-6 animate-fade-in-up">
+                {slide.title}
+              </h1>
+              <h2 className="text-l sm:text-2xl lg:text-3xl font-medium mb-8 text-blue-200 animate-fade-in-up animate-delay-200">
+                {slide.subtitle}
+              </h2>
+              <p className="text-md sm:text-xl mb-10 max-w-3xl leading-relaxed animate-fade-in-up animate-delay-400">
+                {slide.description}
+              </p>
+              <Button
+                size="lg"
+                onClick={() => scrollToSection("projects")}
                 className="bg-white hover:bg-slate-700 hover:text-white text-black px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 animate-fade-in-up animate-delay-600"
               >
                 {slide.cta}
               </Button>
             </div>
           </div>
+
         </div>
       ))}
 

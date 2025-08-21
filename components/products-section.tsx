@@ -99,7 +99,7 @@ export function ProductsSection() {
           </h2>
           <Button
             size="lg"
-            onClick={() => scrollToSection("contact")}
+            onClick={() => scrollToSection("contact-form")}
             className="bg-white hover:bg-slate-700 text-black hover:text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 animate-fade-in-up animate-delay-400"
           >
             Browse All Products
@@ -142,6 +142,7 @@ export function ProductsSection() {
                 <p className="text-slate-600 leading-relaxed mb-6 text-sm">{product.description}</p>
                 <Button
                   variant="outline"
+                  onClick={() => scrollToSection("contact-form")}
                   className="w-full group-hover:bg-slate-600 group-hover:text-white group-hover:border-slate-600 transition-all duration-300 flex items-center justify-center gap-2 bg-transparent"
                 >
                   {product.buttonText}
@@ -163,7 +164,7 @@ export function ProductsSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
-                onClick={() => scrollToSection("contact")}
+                onClick={() => scrollToSection("contact-form")}
                 className="bg-slate-600 hover:bg-slate-700 text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
               >
                 Request Custom Quote

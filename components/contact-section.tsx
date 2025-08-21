@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@upstridetradez.com",
+    value: "info@upstridez.com",
     description: "Send us your inquiries anytime",
   },
   {

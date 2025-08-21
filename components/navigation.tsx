@@ -52,7 +52,8 @@ export function Navigation() {
               className="w-10 h-10 lg:w-12 lg:h-12"
             />
             <div className="hidden sm:block">
-              <h1 className="font-bold text-lg lg:text-xl text-slate-800">Upstride</h1>
+              <h1 className="font-bold text-lg lg:text-xl text-slate-800">UPSTRIDE</h1>
+              <hr></hr>
             
             </div>
           </div>
@@ -63,13 +64,14 @@ export function Navigation() {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href.slice(1))}
-                className="text-slate-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
+                className="text-slate-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group -bottom-1 drop-shadow-[0_0_4px_white]"
               >
                 {link.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-200 group-hover:w-full"></span>
               </button>
             ))}
           </div>
+
 
           {/* Mobile menu button */}
           <div className="lg:hidden">
