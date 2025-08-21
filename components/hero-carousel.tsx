@@ -8,9 +8,9 @@ const heroSlides = [
   {
     id: 1,
     title: "Welcome to Upstride",
-    subtitle: "Your Trusted Partner in Office Solutions, Technology, and Sustainable Energy",
+    subtitle: "Your Trusted Partner in Office Solutions and Sustainable Energy",
     description:
-      "Discover our premium range of office furniture, electronics, solar panels, and innovative AI and solar projects tailored to your needs.",
+      "Discover our electronics, solar panels, and innovative AI and solar projects to your needs.",
     cta: "Explore Our Products & Projects",
     background: "/home-banner-1.jpg",
   },
